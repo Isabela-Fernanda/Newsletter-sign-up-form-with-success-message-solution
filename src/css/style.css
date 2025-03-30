@@ -50,7 +50,7 @@ li::before {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(./assets/images/icon-list.svg); 
+    background-image: url(../assets/images/icon-list.svg); 
     background-size: cover;
     margin-right: 1.7rem;
     margin-left: -0.9rem;
