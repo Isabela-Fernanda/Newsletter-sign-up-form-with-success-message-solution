@@ -17,18 +17,22 @@ Esta é uma solução para o [Newsletter sign-up form with success message chall
 
 ### Screenshot
 Mobile
-![](/src/design-solution/Mobile-solution.png) ![](/src/design-solution/Mobile-error.png)
 
+![](/src/design-solution/Mobile-solution.png) 
+![](/src/design-solution/Mobile-error.png)
 ![](/src/design-solution/Mobile-success.png)
 
+
 Desktop
+
 ![](/src/design-solution/Desktop-solution.png)
 ![](/src/design-solution/Desktop-error.png)
 ![](/src/design-solution/Desktop-success.png)
 
+
 ### Links
 
-- Live Site URL: [Newsletter sign-up form with success message]()
+- Live Site URL: [Newsletter sign-up form with success message](https://isabela-fernanda.github.io/Newsletter-sign-up-form-with-success-message-solution/)
 
 ## Meu processo
 
