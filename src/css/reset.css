@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 :root{
     /* Colors */
     /* Primary */
@@ -10,14 +13,14 @@
     --White: hsl(0, 0%, 100%);
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Roboto';
     src: url("../fonts/Roboto-Regular.ttf");
 }
 @font-face {
     font-family: 'Roboto-bold';
     src: url("../fonts/Roboto-Bold.ttf");
-}
+} */
 
 html{
     font-size: 62.5%;
