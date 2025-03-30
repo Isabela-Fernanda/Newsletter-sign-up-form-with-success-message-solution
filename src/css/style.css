@@ -1,0 +1,141 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--Charcoal-Grey);
+}
+
+main {
+    min-width: 37.5rem;
+}
+
+article {
+    background-color: var(--White);
+}
+
+.oculto {
+    display: none;
+}
+
+article.oculto {
+    display: none !important;
+  }  
+
+.conteudo {
+    margin-top: 3.2rem;
+    padding: 0rem 2.4rem;
+}
+
+h1, h2, label, span, button {
+    font-family: 'Roboto-bold', sans-serif;
+}
+
+h1 {
+    font-size: 3.95rem;
+}
+
+.conteudo p {
+    margin-top: 2.2rem;
+    line-height: 2.25rem;
+}
+
+ul {
+    margin-top: 2.5rem;
+    height: 100%;
+}
+
+li::before {
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(/assets/images/icon-list.svg); 
+    background-size: cover;
+    margin-right: 1.7rem;
+    margin-left: -0.9rem;
+    vertical-align: middle;
+}
+
+ul li {
+    line-height: 2.4rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    text-justify:initial;
+}
+
+.email {
+    margin-top: 3.8rem;
+    position: relative;
+}
+
+label, span {
+    font-size: 1.2rem;
+}
+
+input {
+    margin-top: 1rem;
+    width: 92%;
+    height: 5.2rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--Grey);
+    padding: 0rem 0rem 0rem 2.4rem;
+}
+
+input:hover {
+    cursor: pointer;
+    border: 0.16rem solid var(--Dark-Slate-Grey);
+}
+
+.email span {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    color: var(--Tomato);
+}
+
+button {
+    background-color: var(--Dark-Slate-Grey);
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 2.6rem;
+    border-radius: 0.8rem;
+    color: var(--White);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+button:hover {
+    cursor: pointer;
+    transition-duration: 0.6s;
+    background-color: var(--Tomato);
+}
+
+.success-message{
+    background-color: var(--White);
+    padding: 0rem 2.4rem;
+}
+
+.success-message img {
+    margin-top: 14.9rem;
+}
+
+h2 {
+    margin-top: 3.6rem;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.success-message p {
+    margin-top: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.success-message p .negrito {
+    font-weight: 800;
+    font-size: inherit;
+}
+
+.success-message button {
+    margin-top: 26.4rem;
+}

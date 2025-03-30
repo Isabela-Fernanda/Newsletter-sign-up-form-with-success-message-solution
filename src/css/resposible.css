@@ -1,0 +1,79 @@
+@media (min-width: 1024px) {
+    body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article {
+        max-width: 87.8rem;
+        max-height: 59.1rem;
+        border-radius: 3.6rem;
+    }
+
+    .form {
+        margin: 21.9rem 0rem 21.9rem 0rem;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 2.5rem;
+    }
+
+    .form img {
+        width: 40rem;
+        border-radius: 1rem;
+    }
+
+    .conteudo {
+        padding: 5rem 4rem;
+        max-height: 100%;
+        margin-top: 1.5rem;
+    }
+
+    h1 {
+        font-size: 5.6rem;
+    }
+
+    .conteudo p {
+        margin-top: 2rem;
+    }
+
+    .email {
+        margin-top: -35.5rem;
+        position: relative;
+    }
+
+    .success-message {
+        margin: 28rem 0rem 28rem 0rem;
+        max-width: 37.5rem;
+        max-height: 52rem;
+        padding: 4.7rem 6.5rem;
+    }
+
+    .success-message img {
+        margin-top: 0rem;
+    }
+    
+    h2 {
+        margin-top: 3.5rem;
+        font-size: 5.6rem;
+        line-height: 5.7rem;
+    }
+    
+    .success-message p {
+        margin-top: 2.4rem;
+        line-height: 2.4rem;
+    }
+
+    .success-message button {
+        margin-top: 4rem;
+        margin-bottom: 1.8rem;
+    }
+}

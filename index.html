@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/resposible.css" />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+
+  <body>
+    <main>
+      <article class="form">
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="/assets/images/illustration-sign-up-desktop.svg"
+            sizes="1024px"
+          />
+          <img
+            src="/assets/images/illustration-sign-up-mobile.svg"
+            alt="illustration"
+            sizes="(max-width: 1024px) 100vw, 1024px"
+          />
+        </picture>
+        <div class="conteudo">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+          <ul>
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+
+          <form id="form">
+            <div class="email">
+              <label for="email">Email address</label>
+              <input
+                id="email"
+                name="email"
+                value=""
+                placeholder="email@company.com"
+              />
+              <span class="oculto" aria-live="polite" id="email-error"
+                >Valid email required</span
+              >
+            </div>
+
+            <button>Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+      </article>
+
+      <article class="success-message oculto">
+        <img src="/assets/images/icon-success.svg" alt="" />
+        <h2>Thanks for subscribing!</h2>
+        <p>
+          A confirmation email has been sent to <span class="negrito">ash@loremcompany.com</span>. Please
+          open it and click the button inside to confirm your subscription.
+        </p>
+        <button>Dismiss message</button>
+      </article>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
