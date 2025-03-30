@@ -28,7 +28,8 @@ article.oculto {
 }
 
 h1, h2, label, span, button {
-    font-family: 'Roboto-bold', sans-serif;
+    /* font-family: 'Roboto-bold', sans-serif; */
+    font-weight: 700;
 }
 
 h1 {
