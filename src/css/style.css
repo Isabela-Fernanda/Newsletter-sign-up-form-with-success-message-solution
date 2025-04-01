@@ -28,8 +28,7 @@ article.oculto {
 }
 
 h1, h2, label, span, button {
-    /* font-family: 'Roboto-bold', sans-serif; */
-    font-weight: 700;
+    font-family: 'Roboto-bold', sans-serif;
 }
 
 h1 {
@@ -51,7 +50,7 @@ li::before {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url(../assets/images/icon-list.svg); 
+    background-image: url(/assets/images/icon-list.svg); 
     background-size: cover;
     margin-right: 1.7rem;
     margin-left: -0.9rem;
